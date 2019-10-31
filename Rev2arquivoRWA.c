@@ -10,7 +10,7 @@ FILE *arq; //declara um ponteiro para arquivo
 arq = fopen("arquivox.txt","r");
 /* A função fopen abre o arquivo. Há duas formas de especificar o caminho do arquivo:caminho 
 absoluto no qual o endereço completo é descrito fopen("C:\\Userx\\pastax\\arquivox.txt","r")
-ou caminho relatico ao diretório do programa fopen("arquivox.txt","r").
+ou caminho relativo ao diretório do programa fopen("arquivox.txt","r").
 Quanto ao conteúdo entre aspas depois do nome do arquivo o abre:
 "r" unicamente para leitura, "r+" leitura e escrita,"rb" modo binário para leitura;
 "w" escrita, "w+" leitura e escrita, "wb" escrita no modo binário;
